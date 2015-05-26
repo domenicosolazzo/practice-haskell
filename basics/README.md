@@ -15,6 +15,7 @@ How to run your interactive editor in Haskell
 
 ## Multicore applications
 Compile: ``` ghc -O2 --make <filename>.hs -threaded -rtsopts ```
+
 Execute: ``` time ./<binary> +RTS -N2 ```
 
 ## Applications
