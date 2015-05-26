@@ -9,4 +9,4 @@ How to run Haskell
 # Interactive Editor
 How to run your interactive editor in Haskell
 
-```ghci```
+``` ghci ```
