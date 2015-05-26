@@ -22,3 +22,5 @@ Execute: ``` time ./<binary> +RTS -N2 ```
 - Hello World: Printing Hello World
 - Factorial: Factorial of a number
 - Multicore: First multicore application in Haskell
+- Input: I/O operations
+- Type classes: some type classes in Haskell
