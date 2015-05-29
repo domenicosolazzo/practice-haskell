@@ -113,3 +113,16 @@ hello2 :: String
 hello2 = "hello"
 
 helloSame = hello1 == hello2
+
+-- Constructing lists
+emptyList = []
+ex18 = 1 : [] -- (:) => cons operator: it takes an element and a list and return new list with the element prepended to the front
+ex19 = 3 : (1 : [])
+ex20 = 2 : 3 : 4 : []
+
+-- Generate the sequence of hailstone iterations from a starting number
+hailstoneSeq :: Integer -> [Integer]
+hailstoneSeq 1 = [1]
+hailstoneSeq n = n : hailstoneSeq (hailstone n)
+
+
