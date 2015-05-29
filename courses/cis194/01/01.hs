@@ -51,4 +51,11 @@ ex06 = 19 `mod` 3 -- `backticks` make a function name into an infix operator
 ex07 = 7 ^ 222
 ex08 = (-3) * (-7)
 
+-- Boolean logic
+ex11 = True && False
+ex12 = not (False || True)
+ex13 = ('a' == 'a')
+ex14 = (16 /= 3)
+ex15 = (5 > 3) && ('p' <= 'q')
+ex16 = "Haskell" > "C++"
 
