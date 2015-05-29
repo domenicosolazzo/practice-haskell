@@ -135,3 +135,8 @@ sumEveryTwo :: [Integer] -> [Integer]
 sumEveryTwo []          = [] -- Do nothing to the empty list
 sumEveryTwo (x:[])      = [x] -- Do nothing to the lists with a single element
 sumEveryTwo (x:(y:zs))  = (x + y) : sumEveryTwo zs
+
+-- Combining functions
+-- The number of hailstone steps needed to reac 1 from a starting number
+hailstoneLen :: Integer -> Integer
+hailstoneLen n = intListLength (hailstoneSeq n) - 1
