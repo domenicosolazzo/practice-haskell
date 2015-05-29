@@ -87,4 +87,10 @@ isEven n
   | n `mod` 2 == 0 = True
   | otherwise      = False
 
+-- Pairs
+p :: (Int, Char)
+p = (3, 'x')
+
+sumPair :: (Int, Int) -> Int
+sumPair (x, y) = x + y
 
