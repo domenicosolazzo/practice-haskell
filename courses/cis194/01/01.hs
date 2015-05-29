@@ -98,3 +98,18 @@ sumPair (x, y) = x + y
 f :: Int -> Int -> Int -> Int
 f x y z = x + y + z
 ex17 = f 3 17 8
+
+-- Lists
+nums, range, range2 :: [Integer]
+nums = [1,2,3,19]
+range = [1..100]
+range2 = [2,4..100]
+
+-- hello1 and hello2 are exactly the same
+hello1 :: [Char]
+hello1 = ['h','e','l','l','o']
+
+hello2 :: String
+hello2 = "hello"
+
+helloSame = hello1 == hello2
