@@ -39,3 +39,16 @@ c3 = 'ダ'
 -- Strings are lists of characters
 s :: String
 s = "Hello, Haskell!"
+
+-- Arithmetic
+ex01 = 3 + 2
+ex02 = 19 - 27
+ex03 = 2.35 * 8.6
+ex04 = 8.7 / 3.1 -- Only between floating points
+ex04_b = 12 `div` 5 -- For integer division
+ex05 = mod 19 3
+ex06 = 19 `mod` 3 -- `backticks` make a function name into an infix operator
+ex07 = 7 ^ 222
+ex08 = (-3) * (-7)
+
+
