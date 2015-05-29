@@ -94,3 +94,7 @@ p = (3, 'x')
 sumPair :: (Int, Int) -> Int
 sumPair (x, y) = x + y
 
+-- Using functions, and multiple arguments
+f :: Int -> Int -> Int -> Int
+f x y z = x + y + z
+ex17 = f 3 17 8
